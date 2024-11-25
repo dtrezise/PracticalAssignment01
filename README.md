@@ -1,5 +1,9 @@
 # BH-PCMLAI Practical Assignment01 - Dan Trezise
 
+# Jupiter Notebook
+
+    https://github.com/dtrezise/PracticalAssignment01/blob/6c1fa9c8b0dc42b8ea2a20922405a6aaa4c17e3b/BH-PCMLAI_PracticalAssignment01_DanTrezise.ipynb
+
 # Overview
 Explore the coupons dataset and discover the relationships between types of coupons were accepted and by whom. Several scenerios will be explored and visualized. From these exercises I will be able to identify useful trends.
 
@@ -25,13 +29,15 @@ Looking at the the dataframe to identify any issues with the data using
     
     - Plot of proportion of coupons for each destination
         see plots/plots/CouponsAccepted.png
+            https://github.com/dtrezise/PracticalAssignment01/blob/6c1fa9c8b0dc42b8ea2a20922405a6aaa4c17e3b/plots/CouponsAccepted.png
 
          Interpretation: 
             The acceptance rate of the coupons varies by destination, with Cheap Restaurants and Carry Out having the highest accpetance rate. Both Bar and Expensive Restaurants have a higher rejection rate than acceptance. However, further investigation may show that this relationship may change based on demographic and other conditions.
 
     - Histogram of Temperature Affect on Coupon Count
         see plots/TempAffect.png
-    
+            https://github.com/dtrezise/PracticalAssignment01/blob/6c1fa9c8b0dc42b8ea2a20922405a6aaa4c17e3b/plots/TempAffect.png
+
         Interpretation: 
             At first glance the weather has a significant affect on the coupon count with the count increasing with the tempature.
 
@@ -39,6 +45,7 @@ Looking at the the dataframe to identify any issues with the data using
 
     - Bar Plot of how often per month people visited the bar
         see plots/TimesPerMonthAccepted.png
+            https://github.com/dtrezise/PracticalAssignment01/blob/6c1fa9c8b0dc42b8ea2a20922405a6aaa4c17e3b/plots/TimesPerMonthAccepted.png
 
         Interpretation: 
             There is a significant drop off in coupon count as visits per month increase. However this could be reflected in the fact that less drivers visit the bar more frequently so it would track that the coupon count would also proportionally fall off.
@@ -70,7 +77,10 @@ Looking at the the dataframe to identify any issues with the data using
 
     - Count Plot 
         see plots/AdultBar01.png
+            https://github.com/dtrezise/PracticalAssignment01/blob/6c1fa9c8b0dc42b8ea2a20922405a6aaa4c17e3b/plots/AdultBar01.png
+
         see plots/AdultBar02.png
+            https://github.com/dtrezise/PracticalAssignment01/blob/6c1fa9c8b0dc42b8ea2a20922405a6aaa4c17e3b/plots/AdultBar02.png
 
     I   Interpretation: 
             Drivers were more likely to accept a coupon, but the likelihood decreases as visits increase.
@@ -80,6 +90,7 @@ Looking at the the dataframe to identify any issues with the data using
 
     - Histogram Plot 
         see plots/NoFarmers.png
+            https://github.com/dtrezise/PracticalAssignment01/blob/6c1fa9c8b0dc42b8ea2a20922405a6aaa4c17e3b/plots/NoFarmers.png
 
         Interpretation: 
             The results are similar to the previous test. Drivers were more likely to accept a coupon, The likelihood decreases as visits increase, but still tracking ahead of declines.
@@ -89,6 +100,7 @@ Looking at the the dataframe to identify any issues with the data using
 
     - Count Plot 
         see plots/MarriedStatus.png
+            https://github.com/dtrezise/PracticalAssignment01/blob/6c1fa9c8b0dc42b8ea2a20922405a6aaa4c17e3b/plots/MarriedStatus.png
 
         Interpretation: 
             Based on these observations, single drivers without kids are more likely to visit the Bar more than once a month than any other group. Interestingly, divorced drivers very infrequently visit the bar more than once a month.
@@ -101,6 +113,7 @@ Looking at the the dataframe to identify any issues with the data using
 
     - Count Plot 
         see plots/CoffeHouseWeather.png
+            https://github.com/dtrezise/PracticalAssignment01/blob/6c1fa9c8b0dc42b8ea2a20922405a6aaa4c17e3b/plots/CoffeHouseWeather.png
 
         Interpretation: 
             The plot clearly shows that the weather impacts the count drastically. Sunny days the count is very high and rainy days, it is extremely low.
